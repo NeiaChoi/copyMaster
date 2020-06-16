@@ -7,7 +7,7 @@
     <title>로그인</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/reset.css">
-    <style>    
+    <style>
       body{
         background-color:rgba(68, 69, 57, 0.46);
       }
@@ -78,7 +78,7 @@
 					placeholder="비밀번호를 입력하세요" style="font-size: 30px"> </br>
 				</br> <a href="" style="color: blue">비밀번호를 잊으셨나요?
 			</div>
-			</br></br> 
+			</br></br>
 			<a style="margin-left:330px; padding-left:55px" class="btn blue" href="#blue">로그인</a>
 		</div>
 	</fieldset>
