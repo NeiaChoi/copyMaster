@@ -19,6 +19,9 @@
   </script>
 
   <style>
+  	body{
+  	  background-color:rgba(68, 69, 57, 0.46);
+  	}
     #div_root {
       margin: auto;
     }
@@ -41,6 +44,7 @@
       height: 600px;
       float: left;
       text-align: center;
+      background-color:white;
     }
 
     #div_right {
@@ -54,7 +58,6 @@
       width: 100%;
       height: 150px;
       clear: both;
-      background-color: rgba(7, 7, 8, 0.23);
       text-align: center;
     }
   </style>
@@ -62,8 +65,8 @@
 
 <body>
   <div id="div_root">
-    <div id="div_top">카테고리</div>
-    <div id="div_left">왼쪽</div>
+    <div id="div_top"></div>
+    <div id="div_left"></div>
 
     <div id="div_center">
       <form action="" id="joinForm">
@@ -463,8 +466,8 @@
         </ul>
       </form>
     </div>
-    <div id="div_right">오른쪽</div>
-    <div id="div_bottom">마무으리</div>
+    <div id="div_right"></div>
+    <div id="div_bottom"></div>
   </div>
 </body>
 

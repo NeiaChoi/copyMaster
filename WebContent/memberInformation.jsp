@@ -11,10 +11,6 @@
       input{
         margin:5px 0px 5px 0px;
       }
-      #div_root {
-        margin: auto;
-      }
-
       #div_top {
         width: 100%;
         height: 150px;
@@ -24,7 +20,6 @@
         width: 100%;
         height: 150px;
         clear: both;
-        background-color: rgba(7, 7, 8, 0.23);
         text-align: center;
       }
       body{
@@ -50,6 +45,7 @@
       }
       #main{
         height:600px;
+      }
       a{
         text-decoration:none;
         padding-left:5px;
@@ -113,7 +109,7 @@
 
   <body>
     <div id="div_root">
-      <div id="div_top">카테고리</div>
+      <div id="div_top"></div>
       <fieldset>
         <div id="main" style="padding-left:15px">
             <div id="a1">KKOGI</div>
@@ -146,10 +142,10 @@
           <p style="font-size:15px; font-weight:bold">매장전화</p>
           <input type ="text" style="width:80px; height:22px"> - <input type ="text" style="width:80px; height:22px"> - <input type ="text" style="width:80px; height:22px">
           </br></br>
-          <a style="margin-left:325px; padding-left:70px" class="btn blue" href="#blue">다음</a>
+          <a style="margin-left:330px; padding-left:70px" class="btn blue" href="#blue">다음</a>
         </div>
       </fieldset>
-      <div id="div_bottom">마무으리</div>
+      <div id="div_bottom"></div>
     </div>
   </body>
 </html>
